@@ -448,6 +448,10 @@ footer{
     color: #2e2e2e;
 }
 
+.footer-container .footer-links ul li a:hover{
+    color: #763fff;
+}
+
 footer .copyright-signature{
     display: flex;
     justify-content: center;
