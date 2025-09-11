@@ -66,7 +66,7 @@ header {
 
 
 .navbar ul li a:hover {
-    color: #522eac;
+    color: #5a2eac;
 }
 
 
@@ -74,6 +74,7 @@ header {
     padding: 10px 20px;
     border-radius: 8px;
     background-color: #172a4a;
+    font-weight: 500;
     color: #fff;
     text-decoration: none;
     font-size: 14px;
@@ -81,7 +82,9 @@ header {
 }
 
 .hire-btn:hover {
-    background-color: #23457e;
+    background-color: #fab607;
+    color: #333;
+    font-weight: 500;
 
 }
 
@@ -157,7 +160,7 @@ main {
 
 
 .line {
-    margin: 4px 12px;
+    margin: 4px 0px;
     width: 100%;
     border: 1px solid #adacac;
 }
@@ -197,7 +200,7 @@ main {
 }
 
 .about-section img {
-    width: 300px;
+    width: 335px;
     height: auto;
     border-radius: 12px;
     aspect-ratio: 1/1;
@@ -267,13 +270,16 @@ main {
     text-decoration: none;
     padding: 10px;
     font-size: 16px;
+    font-weight: 400;
     border-radius: 6px;
     text-align: center;
     transition: background 0.3s ease;
 }
 
 .project-card a:hover {
-    background: #0e164e;
+    background: #fab607;
+    font-weight: 600;
+    color: #333;
 }
 
 
@@ -335,11 +341,14 @@ main {
     border: none;
     color: #fff;
     background-color: #1b233d;
+     transition: background 0.3s ease;
 }
 
 
 .contact-form button:hover {
-    background-color: #11172c;
+    background-color: #fab607;
+    color: #333;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -369,9 +378,12 @@ main {
 
 
 footer{
+    display: flex;
+    flex-direction: column;
     background: #fff;
     border-top: 2px solid #c6c6c6;
-    padding: 80px;
+    padding: 70px 40px 30px;
+    gap: 5rem;
 }
 
 
@@ -396,8 +408,17 @@ footer{
 }
 
 .footer-container  .logo-about{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     max-width: 300px;
 }
+
+.footer-container  .logo-about p{
+    font-weight: 500;
+    color: #5d5d5d;
+}
+
 
 .footer-nav{
     display: flex;
@@ -408,7 +429,7 @@ footer{
 .footer-container .footer-nav .footer-links ul{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     list-style: none;
     
 }
@@ -427,6 +448,15 @@ footer{
     color: #2e2e2e;
 }
 
+footer .copyright-signature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #59595a;
+}
 
 
 
